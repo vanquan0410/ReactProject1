@@ -1,0 +1,30 @@
+.header-t{
+    padding: 0px 150px 0px 150px;
+    height: 25px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+    div{
+        margin-left:10px ;
+        font-size: 14px;
+    }
+    div:hover{
+       cursor: pointer;
+       color: red;
+    }
+}
+.header-b{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px 0px 150px;
+    padding-top: 30px;
+    .img-left{
+        width: 250px;
+        height: 80px;
+    }
+    .img-right{
+        height: 90px;
+    }
+}
